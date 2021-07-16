@@ -1,5 +1,4 @@
-console.group("Square");
-
+//Square
 function perimeterSquare(){
     const input = document.getElementById("InputSquare");
     const value = input.value;
@@ -11,27 +10,27 @@ function areaSquare(){
     const value = input.value;
     alert(value*value);
 } 
-console.log("The area of the square is: " + areaSquare(sideSquare) + " [cm]^2");
-console.groupEnd();
 
 //triangle
-console.group("Triangle");
-const sideTriangle1 = 3;
-const sideTriangle2 = 5;
-const sideTriangle3 = 4;
-const heightTriangle = 5.5;
-console.log("The sides of the triangle measure: " + sideTriangle1+" [cm], " + sideTriangle2 +" [cm] y "+  sideTriangle3 +" [cm]");
 
-function perimeterTriangle(sideTriangle1, sideTriangle2,sideTriangle3){
-    return sideTriangle1 + sideTriangle2 + sideTriangle3;
+function perimeterTriangle(){
+    const input1 = document.getElementById("InputTriangle1");
+    const input2 = document.getElementById("InputTriangle2");
+    const input3 = document.getElementById("InputTriangle3");
+    const side1 = parseInt(input1.value);
+    const side2 = parseInt(input2.value);
+    const side3 = parseInt(input3.value);
+    alert(side1+side2+side3);
 }
-console.log("The perimeter of the square is: " + perimeterTriangle(sideTriangle1, sideTriangle2,sideTriangle3) + " [cm]");
 
-function areaTriangle(heightTriangle,sideTriangle1){
-    return (heightTriangle*sideTriangle1)/2;
+function areaTriangle(){
+    const input1 = document.getElementById("InputTriangle1");
+    const inputheight = document.getElementById("InputheightTriangle");
+    const side1 = parseInt(input1.value);
+    const sideheight = parseInt(inputheight.value);
+    alert((side1*sideheight)/2);
 }
-console.log("The area of the square is: " + areaTriangle(heightTriangle,sideTriangle1) + " [cm]^2");
-console.groupEnd();
+
 
 //Circle
 console.group("Circle");

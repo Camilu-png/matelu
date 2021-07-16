@@ -28,19 +28,31 @@
         <section>
             <h3>Calcula el área y perímetro de un triángulo</h3>
             <form action="">
-                <label for="InputTriangle">
-
+                <label for="InputTriangle1">
+                    Escribe un lado del triángulo
                 </label>
-                <input id="InputTriangle" type="number"/>
-                <button type="button"></button>
-                <button type="button"></button>
+                <input id="InputTriangle1" type="number"/>
+                <label for="InputTriangle2">
+                    Escribe un lado del triángulo
+                </label>
+                <input id="InputTriangle2" type="number"/>
+                <label for="InputTriangle3">
+                    Escribe un lado del triángulo
+                </label>
+                <input id="InputTriangle3" type="number"/>
+                <label for="InputheightTriangle">
+                    Escribe la altura del triángulo
+                </label>
+                <input id="InputheightTriangle" type="number"/>
+                <button type="button" onclick="perimeterTriangle()">Calcular el perímetro</button>
+                <button type="button" onclick="areaTriangle()">Calcular el área</button>
             </form>
         </section>
         <section>
             <h3>Calcula el área y perímetro de un círculo</h3>
             <form action="">
                 <label for="InputCircle">
-
+                    Escribe un lado del triángulo
                 </label>
                 <input id="InputCircle" type="number"/>
                 <button type="button" onclick="perimeterCircle()"></button>
