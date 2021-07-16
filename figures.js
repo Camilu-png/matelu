@@ -1,7 +1,7 @@
 //Square
 function perimeterSquare(){
     const input = document.getElementById("InputSquare");
-    const value = input.value;
+    const value = parseInt(input.value);
     alert(value*4);
 }
 
@@ -35,18 +35,21 @@ function areaTriangle(){
 //Circle
 console.group("Circle");
 const radius = 4;
-function diameter(radius){
-    return 2*radius;
+function diameter(){
+    const input = document.getElementById("InputCircle");
+    const radius = parseInt(input.value);
+    alert(2*radius);
 }
 const PI = Math.PI;
-function perimeterCircle(diameter,PI){
-    return diameter*PI;
+function perimeterCircle(){
+    const PI = Math.PI;
+    const input = document.getElementById("InputCircle");
+    const radius = parseInt(input.value);
+    alert(2*radius*PI);
 } 
-function areaCircle(radius,PI){
-    return radius*radius*PI;
+function areaCircle(){
+    const PI = Math.PI;
+    const input = document.getElementById("InputCircle");
+    const radius = parseInt(input.value);
+    alert(radius*radius*PI);
 } 
-
-console.log("The radius of the circle measure: " + radius +" [cm]");
-console.log("The perimeter of the circle is: " + perimeterCircle(diameter(radius),PI) + " [cm]");
-console.log("The area of the circle is: " + areaCircle(radius,PI) + " [cm]^2");
-console.groupEnd();

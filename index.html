@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=}, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://img.pikbest.com/element_our/20201214/bg/1ff8c4c0aa6f4.png!c1024wm0/compress/true/progressive/true/format/webp/fw/1024"/>
+    <link rel="stylesheet" href="css/figures.css"/>
     <title>Matelu</title>
     <script src="./figures.js"></script>
 </head>
@@ -52,11 +53,12 @@
             <h3>Calcula el área y perímetro de un círculo</h3>
             <form action="">
                 <label for="InputCircle">
-                    Escribe un lado del triángulo
+                    Escribe el radio del círculo
                 </label>
                 <input id="InputCircle" type="number"/>
-                <button type="button" onclick="perimeterCircle()"></button>
-                <button type="button"></button>
+                <button type="button" onclick="diameter()">Calcular el diámetro</button>
+                <button type="button" onclick="perimeterCircle()">Calcular el perímetro</button>
+                <button type="button" onclick="areaCircle()">Calcular el área</button>
             </form>
         </section>
     </main>
