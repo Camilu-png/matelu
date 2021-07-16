@@ -1,14 +1,15 @@
 console.group("Square");
-const sideSquare = 7;
-console.log("The sides of the square measure: " + sideSquare + " [cm]");
 
-function perimeterSquare(sideSquare){
-    return sideSquare * 4;
+function perimeterSquare(){
+    const input = document.getElementById("InputSquare");
+    const value = input.value;
+    alert(value*4);
 }
-console.log("The perimeter of the square is: " + perimeterSquare(sideSquare) + " [cm]");
 
-function areaSquare(sideSquare){
-    return sideSquare * sideSquare;
+function areaSquare(){
+    const input = document.getElementById("InputSquare");
+    const value = input.value;
+    alert(value*value);
 } 
 console.log("The area of the square is: " + areaSquare(sideSquare) + " [cm]^2");
 console.groupEnd();
