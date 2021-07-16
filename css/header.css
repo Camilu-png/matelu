@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgba(255, 161, 73, 0.644);
+    background-image: url("https://images.pexels.com/photos/2909077/pexels-photo-2909077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+}
+header{
+    padding: 2% 5%;
+    text-align: center;
+    font-family: sans-serif;
+}
+header h1, header p{
+    margin: 1% auto;
+}
