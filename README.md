@@ -10,5 +10,11 @@ Calcula el área y el perímetro de 3 figuras geonétricas básicas. EL círculo
 ### Taller #2: precios y descuentos
 En proceso.
 
+Se utilizará la siguiente fórmula para poder calcular los descuentos de los productos:
+
+``
+(precio * (100 - descuento))/100
+``
+
 ## Link a la página web
  [Matelu](https://camilu-png.github.io/matelu/)
