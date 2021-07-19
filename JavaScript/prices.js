@@ -4,16 +4,20 @@ const coupons = [
     "Clothes",
     "Toys",
 ];
-const inputCoupon = document.getElementById("InputCoupon");
-const couponValue = inputCoupon.value;
 
-function onClickButtonPriceDiscount() {
+function priceDiscount() {
     const inputPrice = document.getElementById("InputPrice");
     const priceValue = inputPrice.value;
     
     const inputCoupon = document.getElementById("InputCoupon");
     const couponValue = inputCoupon.value;
-  
+
+    const inputDiscounte = document.getElementById("InputDiscount");
+    const discountValue = inputDiscounte.value;
+
+    const resultP = document.getElementById("ResultP");
+    resultP.innerText = "";
+
     let discount;
   
     switch(couponValue) {
@@ -26,20 +30,22 @@ function onClickButtonPriceDiscount() {
       case "Toys":
         discount = 25;
       break;
+      default:
+        discount = 0;
+        resultP.innerText = "El cupón de descuento ingresado no es válido o no fue ingresado.";
+      break;
     }
-  
+    if(discount<discountValue){
+      discount = discountValue;
+    }
   
     const priceDiscount = calculateDiscounte(priceValue, discount);
   
-    const resultP = document.getElementById("ResultP");
-    resultP.innerText = "El precio con descuento son: $" + priceDiscount;
+    resultP.innerText = resultP.innerText + "\nEl precio con descuento son: $" + priceDiscount;
+    console.log(priceDiscount);
   }
 
 // Discontes
-function calculateDiscounte(){
-    const input1 = document.getElementById("InputPrice");
-    const precie = parseInt(input1.value);
-    const discounte = document.getElementById("InputDiscounte");
-    const precie = parseInt(input1.value);
-    alert((precie * (100 - discounte))/100);
+function calculateDiscounte(precie, discounte){
+    return((precie * (100 - discounte))/100);
 }

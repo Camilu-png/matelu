@@ -1,91 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=}, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="https://img.pikbest.com/element_our/20201214/bg/1ff8c4c0aa6f4.png!c1024wm0/compress/true/progressive/true/format/webp/fw/1024"/>
-    <link rel="stylesheet" href="css/header.css"/>
-    <link rel="stylesheet" href="css/figures.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=}, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://img.pikbest.com/element_our/20201214/bg/1ff8c4c0aa6f4.png!c1024wm0/compress/true/progressive/true/format/webp/fw/1024"
+    />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/figures.css" />
     <title>Matelu</title>
     <script src="./JavaScript/figures.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Welcome to Matelu</h1>
-        <p>Aquí encontrarás talleres que he realizado en el curso práctico de JavaScript.</p>
-        <nav>
-            <a href="#">Figures</a>
-            <a href="prices.html">Prices</a>
-            <a href=""></a>
-            <a href=""></a>
-        </nav>
+      <div class="presentation">
+        <a href="https://camilu-png.github.io/portafolio.html">
+          <img
+            src="https://lh3.googleusercontent.com/ogw/ADGmqu9Phxw_c3sikQS5u-eyRDn-B5vkiV3VpVAm3_FeOSQ=s32-c-mo"
+            alt="My Avatar"
+          />
+        </a>
+        <div>
+          <h1>Welcome to Matelu</h1>
+          <p>
+            Aquí encontrarás talleres que he realizado en el curso práctico de
+            JavaScript.
+          </p>
+        </div>
+      </div>
+      <nav>
+        <a href="#">Figures</a>
+        <a href="prices.html">Prices</a>
+        <a href=""></a>
+        <a href=""></a>
+      </nav>
     </header>
     <main>
-        <h2>Taller 1: Figuras Geométricas</h2>
-        <div id="figures">
-            <section>
-                <h3>Calcula el área y perímetro de un cuadrado</h3>
-                <form action="">
-                    <div class="Inputs">
-                        <label for="InputSquare">
-                            Escribe cuánto vale cada lado del cuadrado:
-                        </label>
-                        <input id="InputSquare" type="number"/>
-                    </div>
-                    <button type="button" onclick="perimeterSquare()">Calcular el perímetro</button>
-                    <button type="button" onclick="areaSquare()">Calcular el área</button>
-                </form>
-            </section>
-            <section>
-                <h3>Calcula el área y perímetro de un triángulo</h3>
-                <form action="">
-                    <div class="Inputs">
-                        <label for="InputTriangle1">
-                            Escribe un lado del triángulo
-                        </label>
-                        <input id="InputTriangle1" type="number"/>
-                    </div>
-                    <div class="Inputs">
-                        <label for="InputTriangle2">
-                            Escribe un lado del triángulo
-                        </label>
-                        <input id="InputTriangle2" type="number"/>
-                    </div>
-                    <div class="Inputs">
-                        <label for="InputTriangle3">
-                            Escribe un lado del triángulo
-                        </label>
-                        <input id="InputTriangle3" type="number"/>
-                    </div>
-                    <div class="Inputs">
-                        <label for="InputheightTriangle">
-                            Escribe la altura del triángulo
-                        </label>
-                        <input id="InputheightTriangle" type="number"/>
-                    </div>
-                    <button type="button" onclick="perimeterTriangle()">Calcular el perímetro</button>
-                    <button type="button" onclick="areaTriangle()">Calcular el área</button>
-                </form>
-            </section>
-            <section>
-                <h3>Calcula el área y perímetro de un círculo</h3>
-                <form action="">
-                    <div class="Inputs">
-                        <label for="InputCircle">
-                            Escribe el radio del círculo
-                        </label>
-                        <input id="InputCircle" type="number"/>
-                    </div>
-                    <button type="button" onclick="diameter()">Calcular el diámetro</button>
-                    <button type="button" onclick="perimeterCircle()">Calcular el perímetro</button>
-                    <button type="button" onclick="areaCircle()">Calcular el área</button>
-                </form>
-            </section>
-        </div>
+      <h2>Taller 1: Figuras Geométricas</h2>
+      <div id="figures">
+        <section>
+          <h3>Calcula el área y perímetro de un cuadrado</h3>
+          <form action="">
+            <div class="Inputs">
+              <label for="InputSquare">
+                Escribe cuánto vale cada lado del cuadrado:
+              </label>
+              <input id="InputSquare" type="number" />
+            </div>
+            <button type="button" onclick="perimeterSquare()">
+              Calcular el perímetro
+            </button>
+            <button type="button" onclick="areaSquare()">
+              Calcular el área
+            </button>
+          </form>
+        </section>
+        <section>
+          <h3>Calcula el área y perímetro de un triángulo</h3>
+          <form action="">
+            <div class="Inputs">
+              <label for="InputTriangle1">
+                Escribe un lado del triángulo
+              </label>
+              <input id="InputTriangle1" type="number" />
+            </div>
+            <div class="Inputs">
+              <label for="InputTriangle2">
+                Escribe un lado del triángulo
+              </label>
+              <input id="InputTriangle2" type="number" />
+            </div>
+            <div class="Inputs">
+              <label for="InputTriangle3">
+                Escribe un lado del triángulo
+              </label>
+              <input id="InputTriangle3" type="number" />
+            </div>
+            <div class="Inputs">
+              <label for="InputheightTriangle">
+                Escribe la altura del triángulo
+              </label>
+              <input id="InputheightTriangle" type="number" />
+            </div>
+            <button type="button" onclick="perimeterTriangle()">
+              Calcular el perímetro
+            </button>
+            <button type="button" onclick="areaTriangle()">
+              Calcular el área
+            </button>
+          </form>
+        </section>
+        <section>
+          <h3>Calcula el área y perímetro de un círculo</h3>
+          <form action="">
+            <div class="Inputs">
+              <label for="InputCircle"> Escribe el radio del círculo </label>
+              <input id="InputCircle" type="number" />
+            </div>
+            <button type="button" onclick="diameter()">
+              Calcular el diámetro
+            </button>
+            <button type="button" onclick="perimeterCircle()">
+              Calcular el perímetro
+            </button>
+            <button type="button" onclick="areaCircle()">
+              Calcular el área
+            </button>
+          </form>
+        </section>
+      </div>
     </main>
-    <footer>
-
-    </footer>    
-</body>
+    <footer></footer>
+  </body>
 </html>

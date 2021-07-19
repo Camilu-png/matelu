@@ -4,14 +4,38 @@
 }
 body{
     background-color: rgba(255, 161, 73, 0.644);
-    background-image: url("https://images.pexels.com/photos/2909077/pexels-photo-2909077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-repeat: no-repeat;
 }
 header{
-    padding: 2% 5%;
-    text-align: center;
+    padding: 0.5% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-family: sans-serif;
+    background-color: beige;
+    border-radius: 25px;
+    margin: 0.5%;
 }
-header h1, header p{
-    margin: 1% auto;
+
+header nav{
+    align-content: flex-end;
+}
+header .presentation a, header .presentation div{
+    display: inline-block;
+}
+header .presentation img{
+    border-radius: 25%;
+    width: 2.5rem;
+    margin-bottom: 5%;
+}
+header .presentation a{
+    margin: 0.5% auto;
+}
+header nav a{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+    transition: 1s;
+}
+header nav a:hover{
+    color: rgb(158, 121, 51);
 }

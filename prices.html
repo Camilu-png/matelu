@@ -16,24 +16,43 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to Matelu</h1>
-      <p>
-        Aquí encontrarás talleres que he realizado en el curso práctico de
-        JavaScript.
-      </p>
+      <div class="presentation">
+        <a href="https://camilu-png.github.io/portafolio.html"><img src="https://lh3.googleusercontent.com/ogw/ADGmqu9Phxw_c3sikQS5u-eyRDn-B5vkiV3VpVAm3_FeOSQ=s32-c-mo" alt="My Avatar"></a>
+        <div>
+          <h1>Welcome to Matelu</h1>
+          <p>
+            Aquí encontrarás talleres que he realizado en el curso práctico de
+            JavaScript.
+          </p>
+        </div>
+      </div>
       <nav>
         <a href="index.html">Figures</a>
         <a href="#">Prices</a>
         <a href=""></a>
         <a href=""></a>
       </nav>
-    </header>
+    </header> 
     <main>
         <h2>Taller #2: precios y descuentos</h2>
-        <label for="InputCoupon">
-            Escribe el cupón de descuento para tu producto:
-        </label>
-      <input id="InputCoupon" type="text" />
+        <form action="InputCoupon">
+          <label for="InputCoupon">
+              Escribe el cupón de descuento para tu producto:
+          </label>
+          <input id="InputCoupon" type="text" />
+        </form>
+        <form action="">
+          <label for="InputPrice">
+            Escribe el precio de tu producto:
+          </label>
+          <input id="InputPrice" type="number">
+          <label for="InputDiscount">
+            Escribe el descuento de tu producto:
+          </label>
+          <input id="InputDiscount" type="number">
+          <button type="button" onclick="priceDiscount()">Calcular el precio con descuento</button>
+          <p id="ResultP"></p>
+        </form>
     </main>
   </body>
 </html>
