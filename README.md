@@ -16,5 +16,11 @@ Se utilizará la siguiente fórmula para poder calcular los descuentos de los pr
 (precio * (100 - descuento))/100
 ``
 
+Además se agregó la opción de ingresar algún cupón. En caso de que el cupón no exista o no sea ingresado, se mostrará el siguiente aviso:
+
+![El cupón de descuento ingresado no es válido o no fue ingresado](https://i.imgur.com/tKzjSU7.png)
+
+Cuando se de el caso que el cupón ingresado es menor que el descuento que posee el producto, o viceversa, se utilizará el que posea un mayor descuento.
+
 ## Link a la página web
  [Matelu](https://camilu-png.github.io/matelu/)
