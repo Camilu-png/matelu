@@ -14,7 +14,12 @@ main section{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 30%;
     padding: 1%;
-    background-color: beige;
+    background: rgba( 245, 245, 220, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-radius: 25px;
     margin: 1%;
     height: 15rem;
@@ -30,10 +35,22 @@ main section h3{
 }
 main section button{
     color: rgb(116, 59, 13);
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(255, 207, 48);
+    background: rgba( 255, 255, 255, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.192);
+    backdrop-filter: blur( 50.0px );
+    -webkit-backdrop-filter: blur( 50.0px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.322);
     padding: 1%;
     margin-top: 1%;
+}
+main section button:hover{
+    border: 1px solid rgba(80, 80, 80, 0.322);
+}
+main section button:active{
+    background-color: rgba( 255, 255, 255, 0.85 );;
+    box-shadow: 0 1px rgba(102, 102, 102, 0.678);
+    transform: translateY(3%);
 }
 main p{
     margin: 1%;

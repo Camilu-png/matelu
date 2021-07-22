@@ -8,7 +8,12 @@ main section{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 30%;
     padding: 1%;
-    background-color: beige;
+    background: rgba( 245, 245, 220, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-radius: 25px;
     margin: 2% 32%;
     height: 16rem;
@@ -24,7 +29,22 @@ main section form label{
 main section button{
     margin: 1%;
     padding: 1%;
+    background: rgba( 255, 255, 255, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.192);
+    backdrop-filter: blur( 50.0px );
+    -webkit-backdrop-filter: blur( 50.0px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.322);
 }
+main section button:hover{
+    border: 1px solid rgba(80, 80, 80, 0.322);
+}
+main section button:active{
+    background-color: rgba( 255, 255, 255, 0.85 );;
+    box-shadow: 0 1px rgba(102, 102, 102, 0.678);
+    transform: translateY(3%);
+}
+
 #ResultP{
     font-family: sans-serif;
     margin: 0.5%;
