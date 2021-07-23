@@ -22,5 +22,7 @@ Además se agregó la opción de ingresar algún cupón. En caso de que el cupó
 
 Cuando se de el caso que el cupón ingresado es menor que el descuento que posee el producto, o viceversa, se utilizará el que posea un mayor descuento.
 
+### Taller #3: promedio, moda y mediana
+
 ## Link a la página web
  [Matelu](https://camilu-png.github.io/matelu/)
