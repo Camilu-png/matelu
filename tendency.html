@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=}, initial-scale=1.0" />
@@ -13,39 +13,58 @@
     <link rel="stylesheet" href="css/tendency.css" />
     <title>Matelu</title>
     <script src="./JavaScript/tendency.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="presentation">
-            <a href="https://camilu-png.github.io/portafolio.html">
-              <img
-                src="https://lh3.googleusercontent.com/ogw/ADGmqu9Phxw_c3sikQS5u-eyRDn-B5vkiV3VpVAm3_FeOSQ=s32-c-mo"
-                alt="My Avatar"
-              />
-            </a>
-            <div>
-              <h1>Welcome to Matelu</h1>
-              <p>
-                Aquí encontrarás talleres que he realizado en el curso práctico de
-                JavaScript.
-              </p>
-            </div>
-          </div>
-          <nav>
-            <a href="index.html">Figures</a>
-            <a href="prices.html">Prices</a>
-            <a href="#">Tendency</a>
-            <a href=""></a>
-          </nav>
+      <div class="presentation">
+        <a href="https://camilu-png.github.io/portafolio.html">
+          <img
+            src="https://lh3.googleusercontent.com/ogw/ADGmqu9Phxw_c3sikQS5u-eyRDn-B5vkiV3VpVAm3_FeOSQ=s32-c-mo"
+            alt="My Avatar"
+          />
+        </a>
+        <div>
+          <h1>Welcome to Matelu</h1>
+          <p>
+            Aquí encontrarás talleres que he realizado en el curso práctico de
+            JavaScript.
+          </p>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Figures</a>
+        <a href="prices.html">Prices</a>
+        <a href="#">Tendency</a>
+        <a href=""></a>
+      </nav>
     </header>
     <main>
-        <h2>Taller 3: Promedio, moda y mediana</h2>
-        <section id="average">
-          <h3>Promedio</h3>
-        </section>
-        <section id="median">
-          <h3>Mediana</h3>
-        </section>
+      <h2>Taller 3: Promedio, moda y mediana</h2>
+      <section id="average">
+        <form action="">
+          <div class="Inputs">
+            <label for="Inputs"> Ingresa un número </label>
+            <input id="InputNumber" type="number" />
+          </div>
+          <div class="list">
+            <button type="button" onclick="add()">Ingresar dato</button>
+            <button type="button" onclick="eraser()">Eliminar datos</button>
+          </div>
+          <p id="textArray"></p>
+          <div class="tendency">
+            <button type="button" onclick="calculateAverage()">
+              Calcular el promedio
+            </button>
+            <button type="button" onclick="calculateMedian()">
+              Calcular la mediana
+            </button>
+            <button type="button" onclick="calculateMode()">
+              Calcular la moda
+            </button>
+          </div>
+        </form>
+        <p id="textResult"></p>
+      </section>
     </main>
-</body>
+  </body>
 </html>
