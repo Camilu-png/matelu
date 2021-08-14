@@ -63,5 +63,5 @@ function calculateMode(){
             return element2[1] - element1[1];
         }
     );
-    array.innerText = "La moda es: "+listArray[0];
+    array.innerText = "La moda es: " + listArray[0][0] + " y se encuentra " + listArray[0][1] + " veces";
 }
