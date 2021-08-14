@@ -9,7 +9,6 @@ main section{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-radius: 25px;
     margin: 1%;
-    height: 15rem;
 }
 .Inputs{
     text-align: center;
@@ -26,6 +25,7 @@ main section{
 .tendency{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 1%;
 }
 main section button{
     color: rgb(116, 59, 13);
@@ -48,4 +48,5 @@ main section button:active{
 }
 p{
     height: 45px;
+    margin-left: 1%;
 }
