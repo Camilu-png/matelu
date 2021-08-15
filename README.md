@@ -25,5 +25,8 @@ Cuando se de el caso que el cupón ingresado es menor que el descuento que posee
 Calcula el promedio, moda y mediana de una lista. 
 Primero se necesita agregar números a la lista
 
+### Taller #4: análisis salarial
+En proceso
+
 ## Link a la página web
  [Matelu](https://camilu-png.github.io/matelu/)
