@@ -8,7 +8,6 @@ This is the JavaScript practical course project. Matelu is pronounced with the s
 Calcula el área y el perímetro de 3 figuras geonétricas básicas. EL círculo, cuadrado y triángulo. Además de que es capaz de responder el diámetro del círculo.
 
 ### Taller #2: precios y descuentos
-En proceso.
 
 Se utilizará la siguiente fórmula para poder calcular los descuentos de los productos:
 
@@ -23,6 +22,8 @@ Además se agregó la opción de ingresar algún cupón. En caso de que el cupó
 Cuando se de el caso que el cupón ingresado es menor que el descuento que posee el producto, o viceversa, se utilizará el que posea un mayor descuento.
 
 ### Taller #3: promedio, moda y mediana
+Calcula el promedio, moda y mediana de una lista. 
+Primero se necesita agregar números a la lista
 
 ## Link a la página web
  [Matelu](https://camilu-png.github.io/matelu/)
